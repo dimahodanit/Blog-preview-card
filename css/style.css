@@ -28,8 +28,7 @@ body {
 .main-section__container {
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  place-content: center;
 }
 
 .card-wrapper {
@@ -49,8 +48,7 @@ body {
   width: 82px;
   height: 29px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  place-content: center;
   background: #F4D04E;
   border-radius: 4px;
   margin-bottom: 17px;
