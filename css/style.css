@@ -23,10 +23,10 @@ body {
 }
 
 .main-section {
-  height: 100vh;
+  min-height: 100vh;
 }
 .main-section__container {
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,8 +46,8 @@ body {
   margin-bottom: 19px;
 }
 .card-wrapper__category {
-  width: 82px;
-  height: 29px;
+  min-width: 82px;
+  min-height: 29px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,8 +109,8 @@ body {
     font-size: 12px;
   }
   .card-wrapper__category {
-    width: 73px;
-    height: 26px;
+    min-width: 73px;
+    min-height: 26px;
   }
   .card-wrapper__text {
     font-size: 12px;
